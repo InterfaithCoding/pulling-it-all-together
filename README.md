@@ -46,7 +46,7 @@ It might look a little complex so let's break it down.
 
 The dollar sign is a **variable**, with the value 'jQuery' stored in it. Everytime we want to use the jQuery library, we need to tell the computer that we want to access it by typing in 'jQuery'. But because we use jQuery so often, it would get tedious to have to write our jQuery before we write each line of code. Instead, we have saved this value as a variable, and we only have to type '$' instead of jQuery each time we want to access the library.
 
-The next part is a reference to the element that we are **selecting**. The hashtag is used to select HTML ids. Within the element with the id game-images, we are selecting anything that is an 'img'. 
+The next part is a reference to the element that we are **selecting**. The hashtag is used to select HTML ids. Within the HTML element with id 'game-images', we want to select anything that is an 'img'. 
 
 We then call the inbuilt jQuery function 'click'.  
 
