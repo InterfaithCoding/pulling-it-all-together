@@ -1,8 +1,10 @@
-//This line indicates that we are using jQuery - a JavaScript library that makes event handling easier for us. We want to use event handling, because we are responding to the player's pick. So when the player clicks on a certain image, we want the game to play.
+/** A page can't be manipulated safely until the document is "ready." jQuery detects this state of readiness for you. 
+This is code that is legitimate to copy and paste - but you should include it each time you use jQuery. **/
 $(document).ready(function(){
 
-//These seven lines of code affect the border of the image when the player hovers over them. This indicates to the player that the images are clickable.
-//We are selection the HTML img tags and applying new CSS rules to the border when our mouse enters, and when our mouse leaves.
+/**These seven lines of code affect the border of the image when the player hovers over them. 
+This indicates to the player that the images are clickable.
+We are selecting the HTML img tags and applying new CSS rules to the border when our mouse enters, and when our mouse leaves.**/
   	$('img').on('mouseenter', function() {
   		$(this).css('border', '5px solid #0c595b');
  	});
@@ -32,8 +34,9 @@ $(document).ready(function(){
 		    computerChoice = "spock"
 		}
 
-//Now we have a user choice, which has been set according to click of the player, and a computer choice which has been decided randomly, we can write the logic to compare these two values.
-//Our comparison is going to take two parameters - the user choice and the computer choice, which we will call choice 1 and choice 2 for now
+/**Now we have a user choice, which has been set according to click of the player, and a computer choice which has been decided randomly,
+we can write the logic to compare these two values.
+Our comparison is going to take two parameters - the user choice and the computer choice, which we will call choice 1 and choice 2 for now**/
 		var compare = function(choice1, choice2) {
 
 			//If both the computer and the player chose the same choice, then the game results in a tie
