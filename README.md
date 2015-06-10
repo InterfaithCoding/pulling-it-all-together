@@ -49,3 +49,5 @@ The dollar sign is a **variable**, with the value 'jQuery' stored in it. Everyti
 The next part is a reference to the element that we are **selecting**. The hashtag is used to select HTML ids. Within the element with the id game-images, we are selecting anything that is an 'img'. 
 
 We then call the inbuilt jQuery function 'click'.  
+
+It's now time to put it all together. Let's take a look at our final [JavaScript file](https://github.com/InterfaithCoding/pulling-it-all-together/blob/master/rpsls.js)
