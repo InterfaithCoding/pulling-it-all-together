@@ -15,5 +15,6 @@ Let's quickly review each component.
 
 4. Lastly, we built the back-end engine - to make our game functional. For the game we needed three pieces of information: the player's choice, the computer's choice and a comparison between these two choices. We stored the player's choice and the computer's choice as variables - so we can access these values at a later date. We then built a [JavaScript function](http://www.w3schools.com/js/js_functions.asp) to compare these two values and return the outcome of the game to us. 
 
-So what do we need to do now?
-=============================
+###So what do we need to do now?
+
+
