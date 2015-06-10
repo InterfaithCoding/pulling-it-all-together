@@ -11,7 +11,7 @@ Let's quickly review each component.
 
 2. Secondly, we added some **style** to our website using **CSS**. We made all our images a uniform size, gave them a rounded border and spaced them all evenly along a line. We also added a background to our website and designed how it should look when the player visits our website. You can review what CSS is and how it works [here](https://github.com/InterfaithCoding/frontend/blob/master/css.md). For more advanced tutorial on CSS I recommend the [W3 Schools CSS Tutorial](http://www.w3schools.com/css/)
 
-3. Thirdly, we added some **interactivity** to our website using **JavaScript** and a very useful JavaScript library called **jQuery**. You can review what JavaScript and jQuery are and how it works [here](https://github.com/InterfaithCoding/frontend/blob/master/js.md)
+3. Thirdly, we added some **interactivity** to our website using **JavaScript** and a very useful JavaScript library called **jQuery**. You can review what JavaScript and jQuery are and how it works [here](https://github.com/InterfaithCoding/frontend/blob/master/javascript.md)
 
 We wanted to make sure that our player knows that she can click on the images to play the game. Using the event handler, 'mouseenter' and 'mouseleave' (i.e. when the mouse goes over or leaves the images), we updated our CSS rules for the border of the image. When the mouse is not over the images, the border is dotted, but when our mouse is over the images, the border is solid. 
 
