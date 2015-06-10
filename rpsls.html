@@ -1,1 +1,25 @@
-rpsls.html
+<html>
+	<head>
+		<link href='rps.css' type='text/css' rel='stylesheet'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="rps.js"></script>
+	</head>
+	<title>Rock Paper Scissors Lizard Spock</title>
+	<body>
+		<h1 id='title'>Rock Paper Scissors Lizard Spock</h1>
+		<h2 class='call-to-action'>Are you ready to play?</h2>
+		<p>Sorry I forgot your name. Remind me? </p>
+		<form>
+			<input name="firstname" type="text" id='firstname'><input type="submit" value='Submit'>
+		</form>
+		<p class='instructions'>Click on your pick below, and await your fate...</p>
+
+		<ul class='choices' id='game-images'>
+		      <li><img src='rock.jpg' data-pick='rock'></li>
+		      <li><img src='paper.jpg' data-pick='paper'></li>
+		      <li><img src='scissors.jpg' data-pick='scissors'></li>
+		      <li><img src='lizard.jpg' data-pick='lizard'></li>
+		      <li><img src='spock.jpg' data-pick='spock'></li>
+    	</ul>
+	</body>
+</html>
