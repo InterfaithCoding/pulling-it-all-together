@@ -1,4 +1,4 @@
-//This line indicates that we are using the jQuery - a JavaScript library that makes event handling easier for us. We want to use event handling, because we are responding to the player's pick. So when the player clicks on a certain image, we want the game to play.
+//This line indicates that we are using jQuery - a JavaScript library that makes event handling easier for us. We want to use event handling, because we are responding to the player's pick. So when the player clicks on a certain image, we want the game to play.
 $(document).ready(function(){
 
 //These seven lines of code affect the border of the image when the player hovers over them. This indicates to the player that the images are clickable.
