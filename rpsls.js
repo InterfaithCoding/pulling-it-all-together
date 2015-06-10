@@ -14,7 +14,7 @@ We are selecting the HTML img tags and applying new CSS rules to the border when
  	});
  	
  
- 	$('#enter').on('click', function(e) {
+ 	$('#submitname').on('click', function(e) {
  		e.preventDefault();
  		var name = $('#firstname').val();
  		$('.call-to-action').text("Hello " + name + " are you ready to play?");
