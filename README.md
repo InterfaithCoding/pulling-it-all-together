@@ -17,4 +17,35 @@ Let's quickly review each component.
 
 ###So what do we need to do now?
 
+1. The most important thing that we need to do, is to **bind our game logic (i.e. picking the player's choice, the computer's choice and comparing these two values), to the click image event**, so that when our player clicks an image, the comparison between the player's choice and the computer's choice is made and the outcome can be declared. We are going to do this using jQuery.
 
+If you recall, jQuery is tailor made for selecting HTML elements and performing some action on the element(s). So, we need to think about which HTML elements we want to select and what event we want them to respond to.
+
+We want to select any image that is in our list of choices. So let's have a look at our HTML where we have put our images. Did we give them an ID so that we could select them easily?  
+
+```
+<ul id='game-images'>
+	<li><img src='rock.jpg' data-pick='rock'></li>
+	<li><img src='paper.jpg' data-pick='paper'></li>
+	<li><img src='scissors.jpg' data-pick='scissors'></li>
+	<li><img src='lizard.jpg' data-pick='lizard'></li>
+	<li><img src='spock.jpg' data-pick='spock'></li>
+</ul>
+```
+We gave our list the id of 'game-images'. This makes it easy for us to select all the images within that list to apply a certain behaviour to. 
+
+Now let's think about what **event** we want our images to respond to? We want something to happen when they are **clicked**, so we want to respond to the **click** event. 
+We would write this in jQuery like so:
+
+```
+$('#game-images img').click(function(){
+	//here we will write our game code, including picking the computer's choice, the player's choice and the compare function
+});
+```
+It might look a little complex so let's break it down. 
+
+The dollar sign is a **variable**, with the value 'jQuery' stored in it. Everytime we want to use the jQuery library, we need to tell the computer that we want to access it by typing in 'jQuery'. But because we use jQuery so often, it would get tedious to have to write our jQuery before we write each line of code. Instead, we have saved this value as a variable, and we only have to type '$' instead of jQuery each time we want to access the library.
+
+The next part is a reference to the element that we are **selecting**. The hashtag is used to select HTML ids. Within the element with the id game-images, we are selecting anything that is an 'img'. 
+
+We then call the inbuilt jQuery function 'click'.  

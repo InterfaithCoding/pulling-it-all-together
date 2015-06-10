@@ -12,7 +12,7 @@ $(document).ready(function(){
  	});
  	
 //This is our main logic for the game. This first line says 'when any of the images in the choices class are clicked, then play the game like so:'
-	$('.choices img').on('click', function(){
+	$('#game-images img').on('click', function(){
 		
 //Here we are setting the variable userChoice to the value of the image they have clicked. We want this information so we can compare our user choice to our computer choice and decide on a winner.
        var userChoice = ($(this).data('pick'));
